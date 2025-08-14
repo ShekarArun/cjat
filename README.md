@@ -15,6 +15,14 @@ A script to generate images using Amazon Bedrock's Image Models. Project name in
 yarn
 ```
 
+### Set up AWS Credentials locally
+
+- First, define your profiles for the SSO process
+- Run the SSO login command and store credentials in current session
+```sh
+aws sso login --profile <profile-name> && aws configure export-credentials --profile <profile-name> --format env | pbcopy && $(pbpaste)
+```
+
 ### Run the local script
 ```sh
 yarn run main-local
