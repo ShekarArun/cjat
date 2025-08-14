@@ -1,0 +1,9 @@
+{
+  "name": "cjat",
+  "version": "1.0.0",
+  "description": "Generate images using Amazon Bedrock's Image models",
+  "main": "cjat-local.js",
+  "repository": "git@github.com:ShekarArun/cjat.git",
+  "author": "Arun Shekar <shekar.arun@gmail.com>",
+  "license": "MIT"
+}
